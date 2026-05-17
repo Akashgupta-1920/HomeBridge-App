@@ -63,7 +63,7 @@ export default function HomeScreen() {
                         <View className="flex-row items-center justify-between px-5 pt-4 pb-5">
                             <Image
                                 source={require("../../../assets/images/image.png")}
-                                style={{ width: 90, height: 36 }}
+                                style={{ width: 100, height: 50 }}
                                 resizeMode="contain"
                             />
                             <View className="items-end">
@@ -119,7 +119,7 @@ export default function HomeScreen() {
                                     renderItem={({ item }) => <FeaturedCard property={item} />}
                                     horizontal
                                     showsHorizontalScrollIndicator={false}
-                                    contentContainerStyle={{ paddingHorizontal: 20 }}
+                                    contentContainerStyle={{ paddingHorizontal: 25, paddingVertical: 10 }}
                                 />
                             )}
                         </View>

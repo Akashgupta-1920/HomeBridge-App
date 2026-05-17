@@ -23,7 +23,7 @@ export default function FeaturedCard({ property }: { property: Property }) {
             {/* Image */}
             <Image
                 source={{ uri: property.images[0] }}
-                className="w-full h-44"
+                className="w-full h-40"
                 resizeMode="cover"
             />
 
